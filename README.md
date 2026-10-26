@@ -33,7 +33,7 @@
 **作为 Claude Code skill 使用**
 
 ```bash
-git clone https://github.com/<你的用户名>/apple-glass-ui ~/.claude/skills/apple-glass-ui
+git clone https://github.com/meishuhan/apple-glass-ui ~/.claude/skills/apple-glass-ui
 ```
 
 然后对 Claude 说："把这个页面做成苹果风毛玻璃，带中英文切换。"
