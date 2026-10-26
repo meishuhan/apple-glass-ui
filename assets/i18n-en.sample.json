@@ -1,0 +1,50 @@
+{
+ "exact": {
+  "公司门户": "Company Portal",
+  "主导航": "Main navigation",
+  "首页": "Home",
+  "主营业务": "Core Business",
+  "申请应用": "Apply for Apps",
+  "个人中心": "My Account",
+  "修改密码": "Change Password",
+  "退出": "Sign Out",
+  "登录": "Sign In",
+  "注册": "Sign Up",
+  "管理 ▾": "Admin ▾",
+  "机构审核": "Org Review",
+  "用户管理": "Users",
+  "通知发送记录": "Notification Log",
+  "协议管理": "Terms",
+  "申诉审核": "Appeals",
+  "菜单授权·群体规则": "Menu Access · Groups",
+  "菜单授权·单用户覆盖": "Menu Access · Per-user",
+  "欢迎访问公司门户": "Welcome to the Company Portal",
+  "安全、简洁的统一账户入口。": "A secure, simple single entry point for your account.",
+  "带 * 的为必填项": "Fields marked * are required",
+  "加载中…": "Loading…",
+  "保存": "Save",
+  "提交": "Submit",
+  "查看": "View"
+ },
+ "patterns": [
+  {
+   "re": "^第 (\\d+) 次$",
+   "to": "#$1"
+  },
+  {
+   "re": "^版本 (\\S+) · 发布于 (.+)$",
+   "to": "Version $1 · Published $2"
+  },
+  {
+   "re": "^版本 (\\S+)$",
+   "to": "Version $1"
+  },
+  {
+   "re": "^(.+) - 公司门户$",
+   "to": "$1 - Company Portal",
+   "tr": [
+    1
+   ]
+  }
+ ]
+}
