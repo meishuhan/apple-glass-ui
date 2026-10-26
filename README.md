@@ -16,6 +16,33 @@
 | 📜 **滚动动效** | 滚动渐显、顶栏渐实、首屏渐隐，原生 CSS 为主 |
 | 👆 **按压反馈** | 波纹、提交加载态、防连点、验证码 60 秒倒计时 |
 
+## 先看效果
+
+<p align="center">
+  <img src="docs/screenshots/home-light-aurora.jpg" alt="浅色极光首页" width="49%">
+  <img src="docs/screenshots/home-dark-aurora.jpg" alt="深色极光首页" width="49%">
+</p>
+<p align="center"><sub>同一页面，浅色 / 深色。深色是深海蓝，不是死黑。</sub></p>
+
+**5 种可换背景**（右上角外观面板一键切换，下面是其中三种）
+
+<p align="center">
+  <img src="docs/screenshots/home-dark-ocean.jpg" alt="海洋" width="32%">
+  <img src="docs/screenshots/home-light-mint.jpg" alt="薄荷" width="32%">
+  <img src="docs/screenshots/home-light-dusk.jpg" alt="暮色" width="32%">
+</p>
+
+**毛玻璃表单 + 中英文角标切换**
+
+<p align="center">
+  <img src="docs/screenshots/login-light.jpg" alt="登录页（中文，浅色）" width="49%">
+  <img src="docs/screenshots/login-dark-en.jpg" alt="登录页（English，深色）" width="49%">
+</p>
+
+**手机端自适应**
+
+<p align="center"><img src="docs/screenshots/mobile-dark.jpg" alt="手机端" width="260"></p>
+
 ## 为什么说它"公式化"
 
 因为它真的是公式：
