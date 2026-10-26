@@ -21,28 +21,28 @@ Give any server-rendered site (Thymeleaf / any template engine + a sprinkle of J
 ## Preview
 
 <p align="center">
-  <img src="docs/screenshots/home-light-ocean.jpg" alt="Light blue home page" width="100%">
+  <img src="docs/screenshots/en-home-ocean.jpg" alt="Light blue home page" width="100%">
 </p>
 <p align="center"><sub>Recommended default: light blue. Clean and airy, with glass cards floating over a soft gradient.</sub></p>
 
 **Light blue · soft pink · fresh green** (switch from the appearance panel at the top right; "Aurora" and "Plain" are also included)
 
 <p align="center">
-  <img src="docs/screenshots/home-light-ocean.jpg" alt="Light blue" width="32%">
-  <img src="docs/screenshots/home-light-dusk.jpg" alt="Soft pink" width="32%">
-  <img src="docs/screenshots/home-light-mint.jpg" alt="Fresh green" width="32%">
+  <img src="docs/screenshots/en-home-ocean.jpg" alt="Light blue" width="32%">
+  <img src="docs/screenshots/en-home-dusk.jpg" alt="Soft pink" width="32%">
+  <img src="docs/screenshots/en-home-mint.jpg" alt="Fresh green" width="32%">
 </p>
 
 **Frosted-glass form + EN / 中 toggle** (dark mode is deep navy, not pure black)
 
 <p align="center">
-  <img src="docs/screenshots/login-light-ocean.jpg" alt="Login (Chinese, light blue)" width="49%">
+  <img src="docs/screenshots/en-login-ocean.jpg" alt="Login (English, light blue)" width="49%">
   <img src="docs/screenshots/login-dark-en.jpg" alt="Login (English, dark)" width="49%">
 </p>
 
 **Responsive on mobile**
 
-<p align="center"><img src="docs/screenshots/mobile-light-ocean.jpg" alt="Mobile" width="260"></p>
+<p align="center"><img src="docs/screenshots/en-mobile-ocean.jpg" alt="Mobile" width="260"></p>
 
 ## Why "formulaic"?
 
