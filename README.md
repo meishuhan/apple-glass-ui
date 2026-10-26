@@ -1,85 +1,87 @@
+<p align="right"><b>English</b> | <a href="README.zh-CN.md">中文</a></p>
+
 # ✨ apple-glass-ui
 
-> **一套公式，通吃所有设计场景。**
-> 复制、粘贴、起飞。从此你的网站不再"能用"，而是"贵"。
+> **One formula for every design scenario.**
+> Copy, paste, take off. Your site stops being "usable" and starts feeling *expensive*.
 
-给服务端渲染网站（Thymeleaf / 任意模板 + 一点点 JS，**零前端构建、零框架**）一键换上苹果质感的整套界面：
+Give any server-rendered site (Thymeleaf / any template engine + a sprinkle of JS, **no build step, no framework**) a complete Apple-style look in one go:
 
 | | |
 |---|---|
-| 🧊 **真·毛玻璃** | 半透明表面 + `backdrop-filter`，背后有彩色极光，玻璃才看得见 |
-| 🌌 **5 种可换背景** | 极光 / 暮色 / 海洋 / 薄荷 / 纯净，一键切换，深色模式是深海蓝而非死黑 |
-| 🔤 **Inter + 思源黑体** | 自托管，免费商用（SIL OFL），中英文都耐看 |
-| 🌐 **中英文角标切换** | 运行时词典翻译，不改模板，htmx 局部刷新也能翻 |
-| 🖱️ **鼠标跟随光斑** | 默认开，轻量，触屏和"减少动态"自动关闭 |
-| 🧵 **WebGL 丝绸背景** | 默认关闭，首次访问礼貌询问"要不要试试" |
-| 📜 **滚动动效** | 滚动渐显、顶栏渐实、首屏渐隐，原生 CSS 为主 |
-| 👆 **按压反馈** | 波纹、提交加载态、防连点、验证码 60 秒倒计时 |
+| 🧊 **Real frosted glass** | Translucent surfaces + `backdrop-filter`, over a colorful backdrop so the glass is actually visible |
+| 🌌 **5 swappable backgrounds** | Aurora / Dusk / Ocean / Mint / Plain, one click to switch; dark mode is deep navy, not dead black |
+| 🔤 **Inter + Noto Sans SC** | Self-hosted, free for commercial use (SIL OFL), good-looking in both English and Chinese |
+| 🌐 **EN / 中 corner toggle** | Runtime dictionary translation: no template changes, works with htmx partial updates |
+| 🖱️ **Cursor-following glow** | On by default, lightweight; auto-off on touch devices and with "reduce motion" |
+| 🧵 **WebGL silk background** | Off by default; politely asks on first visit: "want to try it?" |
+| 📜 **Scroll effects** | Scroll reveal, topbar solidify, hero fade; mostly native CSS |
+| 👆 **Press feedback** | Ripple, submit loading state, double-submit guard, 60 s resend countdown |
 
-## 先看效果
-
-<p align="center">
-  <img src="docs/screenshots/home-light-ocean.jpg" alt="浅蓝首页" width="100%">
-</p>
-<p align="center"><sub>默认推荐：浅蓝。通透、干净，毛玻璃卡片浮在柔和的渐变上。</sub></p>
-
-**浅蓝 · 柔粉 · 嫩绿**（右上角外观面板一键切换，另有"极光"和"纯净"）
+## Preview
 
 <p align="center">
-  <img src="docs/screenshots/home-light-ocean.jpg" alt="浅蓝" width="32%">
-  <img src="docs/screenshots/home-light-dusk.jpg" alt="柔粉" width="32%">
-  <img src="docs/screenshots/home-light-mint.jpg" alt="嫩绿" width="32%">
+  <img src="docs/screenshots/home-light-ocean.jpg" alt="Light blue home page" width="100%">
 </p>
+<p align="center"><sub>Recommended default: light blue. Clean and airy, with glass cards floating over a soft gradient.</sub></p>
 
-**毛玻璃表单 + 中英文角标切换**（深色模式是深海蓝，不是死黑）
+**Light blue · soft pink · fresh green** (switch from the appearance panel at the top right; "Aurora" and "Plain" are also included)
 
 <p align="center">
-  <img src="docs/screenshots/login-light-ocean.jpg" alt="登录页（中文，浅蓝）" width="49%">
-  <img src="docs/screenshots/login-dark-en.jpg" alt="登录页（English，深色）" width="49%">
+  <img src="docs/screenshots/home-light-ocean.jpg" alt="Light blue" width="32%">
+  <img src="docs/screenshots/home-light-dusk.jpg" alt="Soft pink" width="32%">
+  <img src="docs/screenshots/home-light-mint.jpg" alt="Fresh green" width="32%">
 </p>
 
-**手机端自适应**
+**Frosted-glass form + EN / 中 toggle** (dark mode is deep navy, not pure black)
 
-<p align="center"><img src="docs/screenshots/mobile-light-ocean.jpg" alt="手机端" width="260"></p>
+<p align="center">
+  <img src="docs/screenshots/login-light-ocean.jpg" alt="Login (Chinese, light blue)" width="49%">
+  <img src="docs/screenshots/login-dark-en.jpg" alt="Login (English, dark)" width="49%">
+</p>
 
-## 为什么说它"公式化"
+**Responsive on mobile**
 
-因为它真的是公式：
+<p align="center"><img src="docs/screenshots/mobile-light-ocean.jpg" alt="Mobile" width="260"></p>
+
+## Why "formulaic"?
+
+Because it literally is a formula:
 
 ```
-克制的字体 + 半透明表面 + 有色背景 + 有节制的动效 + 一个开关管一个偏好
-= 高级感
+restrained typography + translucent surfaces + a colored backdrop
++ moderate motion + one switch per preference
+= premium feel
 ```
 
-登录页、后台、官网、活动页、内部工具，套这个公式，出来的都是同一种"苹果味"。
-不用再为"这页要不要好看一点"开会。
+Login pages, admin panels, marketing sites, event pages, internal tools: apply the formula and you get the same "Apple flavor" every time. No more meetings about whether this page should look nicer.
 
-## 快速开始
+## Quick start
 
-**作为 Claude Code skill 使用**
+**As a Claude Code skill**
 
 ```bash
 git clone https://github.com/meishuhan/apple-glass-ui ~/.claude/skills/apple-glass-ui
 ```
 
-然后对 Claude 说："把这个页面做成苹果风毛玻璃，带中英文切换。"
+Then tell Claude: "Make this page Apple-style frosted glass, with an English/Chinese toggle."
 
-**手动集成**
+**Manual integration**
 
-1. `bash scripts/fetch-fonts.sh` 下载自托管字体
-2. 把 `assets/app.css`、`assets/ui.js`（以及可选的 `assets/fabric.js`）放进你的静态目录
-3. 在 `<head>` 引入，并参照 `SKILL.md` 加上防闪烁的内联脚本
-4. 复制 `assets/i18n-en.sample.json` 为你的英文词典
+1. `bash scripts/fetch-fonts.sh` to download the self-hosted fonts
+2. Put `assets/app.css`, `assets/ui.js` (and optionally `assets/fabric.js`) into your static directory
+3. Include them in `<head>` and add the anti-flash inline script described in `SKILL.md`
+4. Copy `assets/i18n-en.sample.json` as your English dictionary
 
-细节、踩坑清单和验收方法都在 [`SKILL.md`](SKILL.md)。
+Details, pitfalls and acceptance checks are in [`SKILL.md`](SKILL.md) (written in Chinese).
 
-## 老实话
+## Honest notes
 
-- 效果以真机为准：毛玻璃在低端设备上较耗电，WebGL 背景因此默认关闭。
-- 英文译文是机器初稿，上线前请人工校一遍。
-- 页面里只有中文的部分（比如邮件、短信）不在切换范围内。
-- 没有"适合一切"的设计；它适合的是"想要简约、通透、有科技感"的一切。
+- Judge the result on real hardware: frosted glass is power-hungry on low-end devices, which is why the WebGL background is off by default.
+- The English strings are a machine-translated first draft; have a human review them before shipping.
+- Anything that is Chinese-only on your pages (e.g. emails, SMS) is outside the toggle.
+- There is no design that fits *everything*; this one fits everything that wants to be minimal, translucent and a little futuristic.
 
-## 许可
+## License
 
-代码：MIT。字体：Inter 与 Noto Sans SC 均为 SIL Open Font License 1.1，由脚本从 npm 下载，不随仓库分发。
+Code: MIT. Fonts: Inter and Noto Sans SC are both under the SIL Open Font License 1.1; they are downloaded from npm by the script and are not distributed in this repo.
