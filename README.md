@@ -19,29 +19,28 @@
 ## 先看效果
 
 <p align="center">
-  <img src="docs/screenshots/home-light-aurora.jpg" alt="浅色极光首页" width="49%">
-  <img src="docs/screenshots/home-dark-aurora.jpg" alt="深色极光首页" width="49%">
+  <img src="docs/screenshots/home-light-ocean.jpg" alt="浅蓝首页" width="100%">
 </p>
-<p align="center"><sub>同一页面，浅色 / 深色。深色是深海蓝，不是死黑。</sub></p>
+<p align="center"><sub>默认推荐：浅蓝。通透、干净，毛玻璃卡片浮在柔和的渐变上。</sub></p>
 
-**5 种可换背景**（右上角外观面板一键切换，下面是其中三种）
+**浅蓝 · 柔粉 · 嫩绿**（右上角外观面板一键切换，另有"极光"和"纯净"）
 
 <p align="center">
-  <img src="docs/screenshots/home-dark-ocean.jpg" alt="海洋" width="32%">
-  <img src="docs/screenshots/home-light-mint.jpg" alt="薄荷" width="32%">
-  <img src="docs/screenshots/home-light-dusk.jpg" alt="暮色" width="32%">
+  <img src="docs/screenshots/home-light-ocean.jpg" alt="浅蓝" width="32%">
+  <img src="docs/screenshots/home-light-dusk.jpg" alt="柔粉" width="32%">
+  <img src="docs/screenshots/home-light-mint.jpg" alt="嫩绿" width="32%">
 </p>
 
-**毛玻璃表单 + 中英文角标切换**
+**毛玻璃表单 + 中英文角标切换**（深色模式是深海蓝，不是死黑）
 
 <p align="center">
-  <img src="docs/screenshots/login-light.jpg" alt="登录页（中文，浅色）" width="49%">
+  <img src="docs/screenshots/login-light-ocean.jpg" alt="登录页（中文，浅蓝）" width="49%">
   <img src="docs/screenshots/login-dark-en.jpg" alt="登录页（English，深色）" width="49%">
 </p>
 
 **手机端自适应**
 
-<p align="center"><img src="docs/screenshots/mobile-dark.jpg" alt="手机端" width="260"></p>
+<p align="center"><img src="docs/screenshots/mobile-light-ocean.jpg" alt="手机端" width="260"></p>
 
 ## 为什么说它"公式化"
 
