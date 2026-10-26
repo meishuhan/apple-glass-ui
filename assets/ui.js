@@ -103,8 +103,12 @@
         row.appendChild(txt); row.appendChild(b); pop.appendChild(row);
       }
       toggle(L.spot, L.spotHint, 'spot', spotOn(), function (v) { set('portal.fx.spot', v ? 'on' : 'off'); applyFx(); });
-      if (window.PortalFabric && PortalFabric.supported() && fineMotion())
+      /* 丝绸脚本按需加载：面板打开时再加载，加载完成后补上开关（面板仍开着才补） */
+      var mine = pop;
+      if (fineMotion()) loadFabric(function () {
+        if (pop !== mine || !PortalFabric.supported()) return;
         toggle(L.fabric, L.fabricHint, 'fabric', get('portal.fx.fabric') === 'on', function (v) { set('portal.fx.fabric', v ? 'on' : 'off'); applyFx(); });
+      });
       pop.addEventListener('click', function (ev) { ev.stopPropagation(); });
       box.appendChild(pop);
     });
