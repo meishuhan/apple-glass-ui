@@ -382,3 +382,19 @@ button:not(.primary).loading::after { border-color: var(--accent-soft); border-t
 
 html[data-lang="en"]:not(.i18n-ready) body { opacity: 0; }
 html.i18n-ready body { transition: opacity .15s; }
+
+/* ---------- 手机顶栏：品牌可两行，导航与右上角工具始终同一行靠右（中英文一致）。须放在 .tools 规则之后 ---------- */
+@media (max-width: 600px) {
+  .topbar { gap: 8px; }
+  .brand { line-height: 1.15; min-width: 0; }
+  .nav { flex-wrap: nowrap; gap: 0 2px; flex-shrink: 0; }
+  .nav a, .nav .linkbtn { padding: 6px 7px; }
+  .tools { margin-left: 2px; gap: 4px; }
+  .tools .tbtn { padding: 5px 8px; }
+}
+@media (max-width: 350px) {
+  .topbar { padding: 0 10px; gap: 6px; }
+  .brand { font-size: 17px; }
+  .nav a, .nav .linkbtn { padding: 6px 5px; font-size: 13px; }
+  .tools .tbtn { padding: 5px 7px; font-size: 12px; }
+}
